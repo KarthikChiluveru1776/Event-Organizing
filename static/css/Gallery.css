@@ -22,6 +22,8 @@
 
 body {
     font-family: Arial, sans-serif;
+    overflow-y: auto; 
+    overflow-x: hidden; 
 }
 
 header {
