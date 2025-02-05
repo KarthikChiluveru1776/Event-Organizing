@@ -13,6 +13,11 @@
     src: url(../fonts/PoiretOne-Regular.ttf);
 }
 
+body {
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
 #div1 {
     width: 100%;
     height: 30rem;
