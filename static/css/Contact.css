@@ -180,12 +180,14 @@ button:hover {
         width: 100%;
     }
     #details1 {
-        flex-direction: column;
+        flex-direction: row;
+        font-size: 0.3rem
     }
     .list1, .list2, .s1, .s2, .s3, .s4 {
         text-align: center;
     }
     #b1 {
         width: 100%;
+        font-size: 0.3rem;
     }
 }
