@@ -189,8 +189,7 @@ button:hover {
         text-align: center;
     }
     #b1 {
-        width: 60%;
-        min-width: 50ch;
-        font-size: 0.6rem;
+        width: 100%;
+        font-size: 0.4rem;
     }
 }
