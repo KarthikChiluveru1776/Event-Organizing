@@ -154,6 +154,11 @@ a{
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        overflow-y: auto; 
+        overflow-x: hidden; 
+    }
+
     .navbar_content {
         font-size: 0.8rem;
     }
@@ -184,6 +189,12 @@ a{
 
 
 @media screen and (max-width: 480px) {
+
+    body {
+        overflow-y: auto; 
+        overflow-x: hidden; 
+    }
+
     #nav_bar {
         flex-direction: row;
         gap: 0.5rem;
