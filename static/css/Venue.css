@@ -530,6 +530,9 @@ body {
     #pre1 {
         display: none;
     }
+    #package{
+        margin: 20px 0;
+    }
     .pack {
         width: 48%;
         height: auto;
