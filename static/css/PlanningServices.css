@@ -11,6 +11,12 @@ body {
     src: url(../fonts/Cookie-Regular.ttf);
 }
 
+body {
+    
+    overflow-y: auto; 
+    overflow-x: hidden; 
+}
+
 @font-face {
     font-family: font2;
     src: url(../fonts/Aboreto-Regular.ttf);
