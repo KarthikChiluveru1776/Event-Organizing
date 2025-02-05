@@ -176,18 +176,23 @@ button:hover {
 
 
 @media (max-width: 768px) {
-    .add_div, .persondetails {
-        width: 100%;
-    }
-    #details1 {
+    #details {
+        display: flex;
         flex-direction: row;
-        font-size: 0.3rem
+        flex-wrap: wrap;
+        font-size: 0.3rem;
     }
-    .list1, .list2, .s1, .s2, .s3, .s4 {
+    .add_div {
+        flex: 1;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .list1, .list2 {
         text-align: center;
     }
     #b1 {
         width: 100%;
-        font-size: 0.3rem;
+        min-width: 50ch;
+        font-size: 0.6rem;
     }
 }
