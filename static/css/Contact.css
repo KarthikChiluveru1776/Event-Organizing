@@ -176,10 +176,11 @@ button:hover {
 
 @media (max-width: 768px) {
     #details {
-        display: flex;
+/*         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 0.3rem;
+        font-size: 0.3rem; */
+        display: none;
     }
     .add_div {
         flex: 1;
@@ -190,6 +191,6 @@ button:hover {
     }
     #b1 {
         width: 100%;
-        font-size: 0.4rem;
+        font-size: 0.6rem;
     }
 }
