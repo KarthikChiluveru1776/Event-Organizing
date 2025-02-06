@@ -1,4 +1,3 @@
-```markdown
 # Event Organizing Project
 
 ## Description
