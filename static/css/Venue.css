@@ -451,6 +451,9 @@ body {
     #pre1 {
         display: none;
     }
+    #package{
+        margin: 20px 0;
+    }
     
     #linediv {
         display: none;
@@ -591,6 +594,9 @@ body {
     
     #div1 p{
         display: none;
+    }
+    #package{
+        margin: 20px 0;
     }
 
     #linediv {
