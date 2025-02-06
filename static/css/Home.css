@@ -416,6 +416,8 @@ img{
         font-size: 0.30rem;
         font-weight: 600;
         min-width: 25ch;
+        positive: relative;
+        left: -30px;
         transform: translateX(-65%);
     }
 
