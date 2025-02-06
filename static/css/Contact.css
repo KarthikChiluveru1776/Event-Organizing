@@ -22,8 +22,15 @@
 body {
     
     overflow-y: auto; 
-    overflow-x: hidden; 
+    
 }
+
+body{
+    overflow-x: hidden; 
+    width: 100%;
+}
+
+
 
 #div1 {
     width: 100%;
