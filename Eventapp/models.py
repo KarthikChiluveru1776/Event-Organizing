@@ -62,6 +62,9 @@ class WeddingGallery(models.Model):
     heading_image = CloudinaryField('images', blank=True)
     images = CloudinaryField('images', blank=True)
 
+    def __str__(self):
+        return self.names
+
 class Contact(models.Model):
     name = models.CharField(max_length=25)
     surname = models.CharField(max_length=20)
