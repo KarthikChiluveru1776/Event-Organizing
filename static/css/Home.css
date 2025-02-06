@@ -423,6 +423,7 @@ img{
         font-weight: 600;
         positive: relative;
         left: -30px;
+        max-width: 40ch;
         transform: translateX(-65%);
     }
 
@@ -466,6 +467,7 @@ img{
 
     .card-content{
         font-size: 0.30rem;
+        min-width: 40ch;
         font-weight: 600;
     }
 
