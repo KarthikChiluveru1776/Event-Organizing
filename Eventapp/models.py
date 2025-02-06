@@ -54,7 +54,7 @@ class CoupleMoments(models.Model):
     couple_image = CloudinaryField('images')
 
     def __str__(self):
-        self.names if self.names else "Unamed couple"
+        return self.names if self.names else "Unamed couple"
 
 class WeddingGallery(models.Model):
     names = models.ForeignKey(CoupleMoments, on_delete=models.CASCADE)
